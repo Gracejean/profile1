@@ -12,6 +12,11 @@
     },
     {
       "path": "./tsconfig.spec.json"
+    },
+    {
+      "include": ["node_modules/angular-bootsrtap-md/**/*.ts", "src/**/*.ts"]
     }
 ]
+
 }
+  

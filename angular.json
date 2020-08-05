@@ -7,7 +7,7 @@
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
-          "style": "styl"
+          "style": "scss"
         }
       },
       "root": "",
@@ -28,7 +28,7 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.styl"
+              "src/styles.scss"
             ],
             "scripts": []
           },
@@ -92,11 +92,18 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.styl"
+              "node_modules/font-awesome/scss/font-awesome.scss",
+              "node_modules/angular-bootstrap-md/scss/bootstrap/bootstrap.scss",
+              "node_modules/angular-bootstrap-md/scss/mdb-free.scss",
+              "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/chart.js/dist/Chart.js",
+              "node_modules/hammerjs/hammer.min.js"
+
+            ]
           }
-        },
+        },  
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
@@ -128,5 +135,10 @@
   "defaultProject": "profile",
   "cli": {
     "analytics": false
+  },
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
   }
 }

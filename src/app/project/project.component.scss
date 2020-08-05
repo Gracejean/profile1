@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    text-decoration: underline;
+
+}
+
+.container {
+    background-color: white;
+    width: 55%;
+    height: auto;
+    margin-left: 30%;
+    margin-top: 8%;
+}
+
