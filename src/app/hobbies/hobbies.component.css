@@ -22,3 +22,19 @@ li a:hover:not(.active) {
     text-decoration: underline;
 
 }
+
+.card {
+    padding: 25px; 
+    width: 450px; 
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+img{
+    height: 300px;
+    width: 400px;
+}
+
+.card-title{
+    text-align: center;
+}
