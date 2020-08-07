@@ -6,3 +6,8 @@
     margin-top: 8%;
 } */
 
+main {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-gap: 1px;
+}

@@ -1,9 +1,19 @@
+.jumbotron{
+    /* padding: 1rem, 1rem; */
+    margin-bottom: 2rem;
+    background-color: rgba(214, 224, 226, 0.2);
+    border-radius: .3rem;
+    width: 420px;
+    padding: 10px;
+    margin-left: 46%;
+}
+
 a {
     background: #ffffff;
     border: solid 1px #e6e6e6;
     border-radius: 2px;
     display: inline-block;
-    height: 100px;
+    height: 85px;
     line-height: 100px;
     margin: 5px;
     position: relative;
@@ -79,5 +89,9 @@ a:hover span:last-child {
     display: none;
 }
 
+
+.btn-down {
+    margin-left: 63%;
+}
   
 
