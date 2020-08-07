@@ -1,5 +1,47 @@
-
 <div class="container">
+  <div class="header">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <a href="#" class="navbar-brand">
+        <img src="assets/logo.png" height="108" width=" 150px" alt="CoolBrand">
+      </a>
+      <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarCollapse" style="color: yellow">
+
+        <div class="navbar-nav ml-auto">
+          <a routerLink="/profile" class="nav-item nav-link ">Home</a>
+          <a routerLink="/project" class="nav-item nav-link">Project</a>
+          <a routerLink="/resume" class="nav-item nav-link">Resume</a>
+          <a routerLink="/hobbies" class="nav-item nav-link">Hobbies</a>
+        </div>
+      </div>
+    </nav>
+  </div>
+  <div class="content">
+    <router-outlet></router-outlet>
+
+  </div>
   <!-- <app-profile></app-profile> -->
-<router-outlet></router-outlet>
+  <div class="footer">
+    <div class="row">
+      <div class="col">
+        <p>Jeanilyn Mendoza @2020B</p>
+        <img src="assets/code.png" alt="">
+        <p>Angular</p>
+      </div>
+      <div class="col">
+        <ul class="contact">
+          <li><img src="assets/phone.png" alt=""><a href="">09058828535</a></li>
+          <li><img src="assets/email.png" alt=""><a href="">mjeanilyn&@gmail.com</a></li>
+          <li><img src="assets/linkedin.png" alt=""><a href="">Linkin</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    
+  </div>
+
+
 </div>

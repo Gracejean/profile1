@@ -6,6 +6,7 @@ import { ResumeComponent } from '../../src/app/resume/resume.component';
 import { HobbiesComponent } from '../../src/app/hobbies/hobbies.component';
 
 const routes: Routes = [
+  {path: '', redirectTo: '/profile', pathMatch: 'full'},
   {path: 'profile', component: ProfileComponent},
   {path: 'project', component: ProjectComponent},
   {path: 'resume', component: ResumeComponent},

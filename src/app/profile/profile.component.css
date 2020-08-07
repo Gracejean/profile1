@@ -1,41 +1,17 @@
-
-    .tilt{
-        font-size: x-large;margin-top: 2px;
-    }
-
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-
-    }
-
-    li {
-        float: left;
-    }
-
-    li a {
-        display: block;
-        color: black;
-        text-align: center;
-        padding: 14px 40px;
-        text-decoration: none;
-    }
-
-    li a:hover:not(.active) {
-        text-decoration: underline;
-
-    }
-
     .card {
         padding: 25px; 
         width: 450px; 
-        margin-top: 3%;
+        margin-top: 1%;
         margin-left: 25%;
+        margin-bottom: 2%;
         position: relative;
         display: block;
         background-color: rgba(214, 224, 226, 0.2);
+        box-shadow: 10px 10px #b9acb0;
+        /* box-shadow:  ; */
+        /* border-shadow: #c3073f; */
+        /* border-style: solid;
+        border-width: thin; */
         
     }
     
