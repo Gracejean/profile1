@@ -2,7 +2,7 @@ body,
 html {
 /* background-image: linear-gradient(to right, #E9F8FF,#90B2D8,#C1E3FF );  */
 /* background-image: linear-gradient(to right, #683546,#D1AFBA,#683546);  */
-background-image: linear-gradient(to right, #1A1A1D,#4E4E50,#1A1A1D); width: 100%;
+background-image: linear-gradient(to right, #1A1A1D,rgb(30, 30, 32),#1A1A1D); width: 100%;
 }
 
 
