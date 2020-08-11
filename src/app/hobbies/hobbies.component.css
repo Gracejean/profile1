@@ -1,7 +1,7 @@
-
 .head{
-    width: 100%;
+    width: 835px;
     margin-left: 175px;
+    margin-bottom: 3%;
   
     
 }
@@ -18,47 +18,9 @@
 main{
     display: grid;
     grid-template-columns: repeat(2,auto);
-    grid-gap: 10px;
+    grid-gap: 30px;
     margin-left: 4%;
 }
-
-.effects{
-    position: relative;
-    box-shadow: 0px, 20px, 5px, 0px rgb(209, 115, 115,1);
-    /* box-shadow:  10px red; */
-}
-
-/* .effects:before, .effects:after
-{
-  z-index: -1;
-  position: absolute;
-  content: "";
-  bottom: 25px;
-  left: 10px;
-  width: 50%;
-  top: 80%;
-  max-width:300px;
-  background: rgb(240, 228, 228)7;
-  -webkit-box-shadow: 0 35px 20px rgb(240, 228, 228);
-  -moz-box-shadow: 0 35px 20px rgb(240, 228, 228);
-  box-shadow: 0 35px 20px rgb(240, 228, 228);
-  -webkit-transform: rotate(-8deg);
-  -moz-transform: rotate(-8deg);
-  -o-transform: rotate(-8deg);
-  -ms-transform: rotate(-8deg);
-  transform: rotate(-8deg);
-}
-.effects:after
-{
-  -webkit-transform: rotate(8deg);
-  -moz-transform: rotate(8deg);
-  -o-transform: rotate(8deg);
-  -ms-transform: rotate(8deg);
-  transform: rotate(8deg);
-  right: 10px;
-  left: auto;
-} */
-
 
 img{
     height: 300px;

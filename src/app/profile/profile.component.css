@@ -1,4 +1,4 @@
-.card {
+/* .card {
     padding: 25px; 
     width: 450px; 
     margin-top: 1%;
@@ -42,4 +42,67 @@ i.card-img-top{
     text-align: center;
 }
 
-   
+    */
+
+
+    #back {
+        /* padding: 25px;  */
+        width: 500px; 
+        height: 650px;
+        margin-top: 1%;
+        margin-left: 5%;
+        margin-bottom: 2%;
+        position: relative;
+        display: block;
+        background-color: rgba(214, 224, 226, 0.5);
+        /* box-shadow: 10px 10px #b9acb0; */
+        
+    }
+
+    #front {
+        height: 450px;
+        width: 370px;
+        background-color: white;
+        margin:100px ;
+        margin-left: 200px;
+        background-color: rgba(214, 224, 226, 0.2);    
+    }
+        
+    i.card-img-top{
+        height: 300px;
+        width: 400px;
+    }
+    
+    .image{
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        left: 50%;
+        top: 35%;
+        position: absolute;
+        margin-top: -120px;
+        margin-left: -95px;
+    
+    }
+
+    .card-body {
+        margin-top: 48%;
+    }
+    
+    .card-title{
+        text-align: center;
+        margin-top: 80px;   
+        font-weight: bolder;
+        font-size: x-large;
+    
+    }
+    
+    .post{
+        margin-left: 34%;
+    }
+    
+    .card-text{
+        text-align: center;
+    }
+    
+       

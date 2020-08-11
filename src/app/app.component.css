@@ -51,14 +51,14 @@
       margin-right: 0;
       display: flex;
   }
-  /* .footer{
+  .footer{
     flex-shrink: 0;
     flex-grow: 0;
     padding: 3px 15px;
     background-color: rgb(235, 91, 91);
     color: white;
     width: 1263px;
-  } */
+  }
 
   
 .container-fluid{
@@ -83,9 +83,11 @@
 
 .contact{
     list-style-type: none;
-    margin: 0;
+    /* margin: 0; */
     padding: 0;
     overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 5px;
 
 }
 
@@ -96,13 +98,14 @@
 
 li {
     float: left;
+    /* left: 30%; */
 }
 
 li a {
-    display: block;
+    display: inline-block;
     color: white;
     text-align: center;
-    padding: 14px 40px;
+    padding: 3px 15px;
     text-decoration: none;
 }
 
@@ -110,3 +113,14 @@ li a {
     text-decoration: underline;
 
 } */
+
+#con {
+  position: absolute;
+  left: 40%;
+}
+
+#by {
+  /* padding: 3px 15px; */
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
