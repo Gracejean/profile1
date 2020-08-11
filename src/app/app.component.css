@@ -44,23 +44,30 @@
   }
 
   .navbar {
-      width: 1200px;
+      /* width: 1200px; */
       position: relative;
       align-items: center;
-      margin-left: 0;
-      margin-right: 0;
+      /* margin-left: 0;
+      margin-right: 0; */
       display: flex;
       position: fixed;
       z-index: 1;
+      height: 76px;
+      right: 0px;
+      left: 0px;
+      width: 1262px;
       background-image: linear-gradient(to right, #1A1A1D,rgb(30, 30, 32),#1A1A1D); 
+      /* background-color: white; */
   }
   .footer{
     flex-shrink: 0;
     flex-grow: 0;
     padding: 3px 15px;
     background-image: linear-gradient(to right, #1A1A1D,rgb(30, 30, 32),#1A1A1D); 
+    /* background-color: wheat; */
     color: white;
     width: 1263px;
+    /* position: relative; */
   }
 
   
@@ -83,6 +90,9 @@
     position: relative;
     overflow-y: auto;
   } */
+.content {
+  margin-top: 15%;
+}
 
 .contact{
     list-style-type: none;
