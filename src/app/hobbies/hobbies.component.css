@@ -6,13 +6,16 @@
     
 }
 .card {
-    /* padding: 20px;  */
+
     width: 402px; 
     margin-top: 5%;
-    /* column-gap: 5%; */
-    /* text-align: justify; */
-    /* margin-left: 5%; */
-    /* margin: 5%; */
+    box-shadow: 
+    inset 0 -2em 2em rgba(73, 71, 71, 0.1), 
+          0 0  0 1px rgb(77, 74, 74),
+          0.3em 0.3em 1em rgba(126, 118, 118, 0.685);
+        
+ 
+
 }
 
 main{

@@ -9,6 +9,9 @@
     padding: 10px;
     margin-left: 46%;
 }
+img {
+    width: 500px; 
+}
 
 a {
     background: #ffffff;

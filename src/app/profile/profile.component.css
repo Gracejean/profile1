@@ -48,15 +48,13 @@ i.card-img-top{
 }
     
     #back {
-        /* padding: 25px;  */
         width: 500px; 
         height: 650px;
         margin-top: 1%;
             margin-bottom: 2%;
         position: relative;
         display: block;
-        background-color: rgba(214, 224, 226, 0.5);
-        /* box-shadow: 10px 10px #b9acb0; */
+        background-color:rgb(78,78,80);
         
     }
 
@@ -66,7 +64,7 @@ i.card-img-top{
         background-color: white;
         margin:100px ;
         margin-left: 185px;
-        background-color: rgba(214, 224, 226, 0.2);    
+        background-color: rgb(78,78,80,0.5);
     }
         
     i.card-img-top{
@@ -99,7 +97,7 @@ i.card-img-top{
     }
     
     .post{
-        margin-left: 34%;
+        margin-left: 25%;
     }
     
     .card-text{
