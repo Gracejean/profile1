@@ -54,17 +54,31 @@ i.card-img-top{
             margin-bottom: 2%;
         position: relative;
         display: block;
-        background-color:rgb(78,78,80);
+        background-color: rgb(198,67,73)  ;
+        /* background-color:rgb(78,78,80); */
         
     }
 
     #front {
         height: 450px;
         width: 370px;
-        background-color: white;
+        /* background-color: white; */
         margin:100px ;
         margin-left: 185px;
-        background-color: rgb(78,78,80,0.5);
+        background-color:rgb(204,87,92);
+        box-shadow: 
+        inset
+                0 0  0 1px rgb(77, 74, 74),
+                0.3em 0.2em 1em rgba(22, 22, 22, 0.685);
+        
+        
+    }
+
+    #line {
+        width: 80px; 
+        margin-left: 38%; 
+        background-color: rgb(179, 170, 170); 
+        height: 3px;
     }
         
     i.card-img-top{
