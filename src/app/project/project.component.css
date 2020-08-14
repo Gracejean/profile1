@@ -45,6 +45,8 @@ main {
 
 .card-title {
     margin-left: 50px;
+    /* border-left-style: solid;
+  border-left-color: coral; */
 }
 
 .card-text{
