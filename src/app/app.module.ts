@@ -1,6 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-// import { MDBBootstrapModule } from 'angular-bootstrap-md';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -23,11 +22,9 @@ import { ContactComponent } from './contact/contact.component';
   imports: [
     BrowserModule,
     AppRoutingModule
-    // MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]
-  // schemas: [NO_ERRORS_SCHEMA]
 })  
 export class AppModule { }
   

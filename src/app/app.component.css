@@ -22,15 +22,7 @@
 }
 
 .header{
-    /* margin: 7px; */
-      width: 100%;
-      /* flex-shrink: 0;
-      flex-grow: 0; */
-      /* flex-shrink: 0;
-      flex-grow: 0; */
-      /* background: #039be5; */
-      /* padding: 3px 5px; */
-      
+      width: 100%;     
 }
 
 .navbar-nav > a{
@@ -48,7 +40,7 @@
       align-items: center;
       display: flex;
       position: fixed;
-      z-index: 1;
+      z-index: 2;
       height: 76px;
       right: 0px;
       left: 0px;

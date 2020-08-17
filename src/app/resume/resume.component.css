@@ -1,6 +1,25 @@
 .body {
     margin-bottom: 5%;
 }
+
+h1 {
+    color: white;
+    font-weight: bolder;
+    margin-left: 250px;
+    margin-top: 35px;
+}
+
+h2,h3,h4{
+    font-weight: bolder;
+    color: rgb(30, 87, 30);
+    font-size: medium;
+}
+
+h4 {
+    position: relative;
+    right: 80px;
+    top: 60px;
+}
 .jumbotron{
     margin-bottom: 2rem;
     background-color: rgba(214, 224, 226, 0.2);
@@ -9,6 +28,134 @@
     padding: 10px;
     margin-left: 46%;
 }
+
+#card_cover {
+    width: 768px;
+    height: 1200px;
+    margin-left: 150px;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+    margin-top: 15px;
+}
+
+.card-title {
+    margin-bottom: .75rem;
+    margin-top: 20px;
+    font-size: x-large;
+    color: white;
+    font-weight: bolder;
+}
+
+.card-text {
+    margin-bottom: 0;
+    color: white;
+    font-size: larger;
+}
+
+.spe {
+    color: white;
+    font-size: small;
+}
+
+#top {
+    background-color: rgb(67, 139, 67);
+ 
+    height: 180px;
+}
+
+#end {
+    background-color: rgb(67, 139, 67);
+}
+
+#color {
+    clip-path: polygon(43% 0, 42% 19%, 39% 31%, 33% 46%, 24% 56%, 14% 72%, 0 80%, 0% 70%, 0% 35%, 0 0);
+}
+
+#col-image {
+    width: 100px;
+}
+
+#image {
+    border-radius: 50%;
+    width: 180px;
+    z-index: 1;
+    position: relative;
+    left: 40px;
+    top: 35px;
+}
+
+.card-img {
+    border-radius: 50%;
+    width: 180px;
+    z-index: 1;
+    position: relative;
+    left: 40px;
+    top: 35px;
+}
+
+.cont {
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-gap: 10px;
+    margin-left: 4%;
+    
+}
+
+#cont {
+    padding: 25px;
+}
+
+p {
+    color: black;
+    font-weight: 800px;
+}
+
+span {
+    font-weight: bold;
+    color: rgb(92, 87, 87);
+}
+
+ul{
+    font-weight: bold;  
+    color: grey;
+}
+
+li {
+    color: black;
+    font-weight: normal;
+}
+
+.obj, .train{
+    margin-top: 60px;
+}
+
+.edu {
+    margin-top: 50px;
+}
+.pro {
+    margin-top: 28px;
+}
+
+.sem {
+    margin-top: 63px;
+}
+
+.ref {
+    margin-left: 95px;
+}
+
+
+#des {
+    -webkit-clip-path: polygon(29% 0, 25% 16%, 19% 27%, 14% 39%, 0 48%, 0 44%, 0 0);
+    clip-path: polygon(29% 0, 25% 16%, 19% 27%, 14% 39%, 0 48%, 0 44%, 0 0);
+    background-color: rgb(28, 184, 28);
+}
+
+
 img {
     width: 500px; 
 }
@@ -94,7 +241,8 @@ a:hover span:last-child {
 
 
 .btn-down {
-    margin-left: 63%;
+    margin-left: 103%;
+    position: absolute;
 }
   
 

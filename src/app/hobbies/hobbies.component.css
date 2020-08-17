@@ -1,21 +1,15 @@
 .head{
     width: 835px;
     margin-left: 175px;
-    margin-bottom: 5%;
-  
-    
+    margin-bottom: 5%;    
 }
 .card {
-
     width: 402px; 
     margin-top: 5%;
     box-shadow: 
     inset 0 -2em 2em rgba(73, 71, 71, 0.1), 
-          0 0  0 1px rgb(77, 74, 74),
-          0.3em 0.3em 1em rgba(126, 118, 118, 0.685);
-        
- 
-
+        0 0  0 1px rgb(77, 74, 74),
+        0.3em 0.3em 1em rgba(126, 118, 118, 0.685);
 }
 
 main{
